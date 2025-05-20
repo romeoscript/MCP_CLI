@@ -1,0 +1,60 @@
+{
+    "name": "mcp-cli-toolkit",
+    "version": "1.0.2",
+    "description": "CLI tool to scaffold MCP servers in seconds",
+    "type": "module",
+    "bin": {
+        "mcp": "./dist/index.js",
+        "mcp-cli": "./dist/index.js"
+    },
+    "files": [
+        "dist",
+        "README.md",
+        "LICENSE"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "dev": "tsx watch src/index.ts",
+        "test": "echo \"Tests coming soon\"",
+        "prepublishOnly": "npm run build",
+        "clean": "rm -rf dist"
+    },
+    "keywords": [
+        "mcp",
+        "model-context-protocol",
+        "cli",
+        "scaffolding",
+        "generator",
+        "typescript",
+        "ai",
+        "llm"
+    ],
+    "author": "Alvin Okoro <alvinuchenna14@gmail.com>",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/veri5ied/mcp-cli.git"
+    },
+    "bugs": {
+        "url": "https://github.com/veri5ied/mcp-cli/issues"
+    },
+    "homepage": "https://github.com/veri5ied/mcp-cli#readme",
+    "dependencies": {
+        "chalk": "^5.3.0",
+        "commander": "^11.1.0",
+        "fs-extra": "^11.2.0",
+        "inquirer": "^9.2.12"
+    },
+    "devDependencies": {
+        "@types/fs-extra": "^11.0.4",
+        "@types/inquirer": "^9.0.7",
+        "@types/node": "^20.10.0",
+        "tsup": "^8.5.0",
+        "tsx": "^4.7.0",
+        "typescript": "^5.3.3"
+    },
+    "engines": {
+        "node": ">=18.0.0",
+        "npm": ">=9.0.0"
+    }
+}
