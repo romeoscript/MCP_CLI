@@ -1,4 +1,4 @@
-import fs from "fs-extra";
+import * as fs from "fs-extra";
 import * as path from "path";
 import { logger } from "./logger.js";
 import { TemplateFile } from "../types/index.js";

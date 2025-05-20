@@ -62,7 +62,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
         content: [
           {
             type: 'text',
-            text: \`Echo: \${args?.text ?? ''}\`,
+            text: \`Echo: \${args.text}\`,
           },
         ],
       };
@@ -121,10 +121,9 @@ server.setRequestHandler(ReadResourceRequestSchema, async (request) => {
 
 // Start server
 async function main() {
-  const port = 6000;
-  const transport = new HttpServerTransport({ port });
+  const transport = new StdioServerTransport();
   await server.connect(transport);
-  console.error(\`MCP Server running on http://localhost:\${port}\`);
+  console.error('MCP Server running on stdio');
 }
 
 main().catch((error) => {

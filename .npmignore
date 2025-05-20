@@ -1,8 +1,0 @@
-src/
-*.log
-.DS_Store
-.env
-tsconfig.json
-.vscode/
-.idea/
-coverage/
