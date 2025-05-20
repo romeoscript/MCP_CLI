@@ -121,9 +121,10 @@ server.setRequestHandler(ReadResourceRequestSchema, async (request) => {
 
 // Start server
 async function main() {
-  const transport = new StdioServerTransport();
+  const port = 6000;
+  const transport = new HttpServerTransport({ port });
   await server.connect(transport);
-  console.error('MCP Server running on stdio');
+  console.error(\`MCP Server running on http://localhost:\${port}\`);
 }
 
 main().catch((error) => {
