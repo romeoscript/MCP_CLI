@@ -1,11 +1,11 @@
-# MCP CLI
+# MCP CLI Toolkit
 
-MCP CLI scaffolds a fully working MCP server in seconds — with TypeScript or JavaScript, built-in tools, resources, and dev commands. Think of it as CRA, but for MCP servers
+MCP CLI Toolkit scaffolds a fully working MCP server in seconds — with TypeScript or JavaScript, built-in tools, resources, and dev commands. Think of it as CRA, but for MCP servers.
 
 ## Quick Start
 
 ```bash
-npx mcp-cli create my-server
+npx mcp-cli-toolkit create my-server
 ```
 
 ## Features
@@ -22,7 +22,7 @@ npx mcp-cli create my-server
 ### Global Installation
 
 ```bash
-npm install -g mcp-cli
+npm install -g mcp-cli-toolkit
 ```
 
 Then use:
@@ -31,10 +31,16 @@ Then use:
 mcp create my-server
 ```
 
+or
+
+```bash
+mcp-cli create my-server
+```
+
 ### NPX (No Installation)
 
 ```bash
-npx mcp-cli create my-server
+npx mcp-cli-toolkit create my-server
 ```
 
 ## Usage

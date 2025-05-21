@@ -1,5 +1,5 @@
 {
-    "name": "mcp-cli",
+    "name": "mcp-cli-toolkit",
     "version": "1.0.0",
     "description": "CLI tool to scaffold MCP servers in seconds",
     "type": "module",
