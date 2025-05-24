@@ -1,6 +1,6 @@
 {
-    "name": "mcp-cli-toolkit",
-    "version": "1.0.2",
+    "name": "mcp-scaffold",
+    "version": "1.0.0",
     "description": "CLI tool to scaffold MCP servers in seconds",
     "type": "module",
     "bin": {
@@ -29,7 +29,7 @@
         "ai",
         "llm"
     ],
-    "author": "Alvin Okoro <alvinuchenna14@gmail.com>",
+    "author": "romeoscript <romeobourne211@gmail.com>",
     "license": "MIT",
     "repository": {
         "type": "git",
