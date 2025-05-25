@@ -1,6 +1,6 @@
 {
     "name": "mcp-scaffold",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "description": "CLI tool to scaffold MCP servers in seconds",
     "type": "module",
     "bin": {
@@ -33,12 +33,12 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/veri5ied/mcp-cli.git"
+        "url": "https://github.com/romeoscript/MCP_CLI.git"
     },
     "bugs": {
-        "url": "https://github.com/veri5ied/mcp-cli/issues"
+        "url": "https://github.com/romeoscript/MCP_CLI/issues"
     },
-    "homepage": "https://github.com/veri5ied/mcp-cli#readme",
+    "homepage": "https://github.com/romeoscript/MCP_CLI#readme",
     "dependencies": {
         "chalk": "^5.3.0",
         "commander": "^11.1.0",

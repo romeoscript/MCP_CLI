@@ -31,12 +31,6 @@ Then use:
 mcp create my-server
 ```
 
-or
-
-```bash
-mcp-cli create my-server
-```
-
 ### NPX (No Installation)
 
 ```bash
@@ -132,8 +126,8 @@ my-server/
 
 ```bash
 # Clone the repo
-git clone https://github.com/veri5ied/mcp-cli.git
-cd mcp-cli
+git clone https://github.com/romeoscript/MCP_CLI.git
+cd MCP_CLI
 
 # Install dependencies
 pnpm install
