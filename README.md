@@ -5,7 +5,7 @@ MCP CLI Toolkit scaffolds a fully working MCP server in seconds — with TypeScr
 ## Quick Start
 
 ```bash
-npx mcp-cli-toolkit create my-server
+npx mcp-scaffold create my-server
 ```
 
 ## Features
@@ -22,7 +22,7 @@ npx mcp-cli-toolkit create my-server
 ### Global Installation
 
 ```bash
-npm install -g mcp-cli-toolkit
+npm install -g mcp-scaffold
 ```
 
 Then use:
@@ -40,7 +40,7 @@ mcp-cli create my-server
 ### NPX (No Installation)
 
 ```bash
-npx mcp-cli-toolkit create my-server
+npx mcp-scaffold create my-server
 ```
 
 ## Usage
